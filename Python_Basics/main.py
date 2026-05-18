@@ -609,3 +609,104 @@ import string
 # remove()	Removes the item with the specified value
 # reverse()	Reverses the order of the list
 # sort()	Sorts the list
+
+
+# thislist = ["apple", "bana", "cherry"]=== list
+# mytuple = ("apple", "banana", "cherry")=== tuple
+# myset = {"apple", "banana", "cherry"}=== set
+
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple)
+
+# thistuple = ("apple", "banana", "cherry")
+# print(len(thistuple))
+
+
+# thistuple = ("apple",)
+# print(type(thistuple))
+
+# tuple1 = ("abc", 34, True, 40, "male")
+
+# print(tuple1)
+
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple[1])
+
+# thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+
+# x = ("apple", "banana", "cherry")
+# print(type(x))
+# list1 = list(x)  # Convert the tuple to a list
+# print(type(list1))
+# list1[1] = "kiwi" # Change the second element of the list to "kiwi"
+# print(list1)
+# list1 = tuple(list1) # Convert the list back to a tuple
+# print(type(list1))
+
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#   print(x)
+
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#     pass
+# print(x)
+
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#   pass
+#   print(x)
+# print(x)
+
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple[1])  # This will raise a TypeError because tuples are immutable and do not support item assignment.
+
+# for i in range(len(thistuple)):  # for i in range(3)
+#   if i == 1:
+#     print(i)
+#     print(thistuple[i])
+
+#   print(thistuple[i]) 
+
+# for i in range(25):
+#     print(i)
+# print(i)
+
+# thistuple = ("apple", "banana", "cherry")
+# i = 0
+# while i < len(thistuple):  #0<3                             #1<3                               #2<3
+#   print(thistuple[i])      #print(thistuple[0])  #apple  #print(thistuple[1])  #banana    #print(thistuple[2])  #cherry
+#   i = i + 1                 #i = 1                       #i = 2                             #i = 3
+
+
+# a = 330
+# b = 200
+# if b > a:  #200 > 330
+#     print("b is greater than a")
+# else:
+#     print("b is not greater than a")
+
+# a = 33
+# b = 200
+# if b > a:
+#     print("b is greater than a") 
+
+
+# age = int(input("Enter your age: "))
+# if age >= 18:   #20 >= 18
+#   print("You are an adult")
+#   print("You can vote")
+#   print("You have full legal rights")
+# else:
+#   print("You are a minor")
+#   print("You cannot vote")
+#   print("You have limited legal rights")
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:  
+   print("a is greater than b")
