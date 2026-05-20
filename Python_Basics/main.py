@@ -846,3 +846,251 @@ import string
 # else:
 #   print("Finally finished!")
 
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# # print(thisdict)
+# print(thisdict["brand"])
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964,
+#   "year": 2020
+# }
+# # print(thisdict)
+
+# print(len(thisdict))
+# print(type(thisdict))
+
+# a = "3"
+# print(type(a)) # str
+# int_a = int(a)
+# print(type(int_a)) # int
+# b = 3
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# print(thisdict["model"])
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.keys()
+# print(x)
+
+# car["color"] =""
+# print(x)
+
+# print(car["color"])
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.values()
+
+# print(x) #before the change
+
+# car["year"] = 2020
+
+# print(x) #after the change
+
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# # print(car)
+# x = car.items()
+# print(x)
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# if "hello" in thisdict:
+#   print("Yes, 'hello' is one of the keys in the thisdict dictionary")
+# else:
+#   print("hello")
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.update({"year": 2020})
+# print(thisdict)
+
+# thisdict = {
+#   "brand": "my name is vinayaka i am working in gen ai",
+#   "model": 1964,
+#   "year": 1964
+# }
+# # thisdict.popitem()
+# print(thisdict)
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# print(thisdict)
+# thisdict.clear()
+# print(thisdict)
+
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# for x in thisdict:
+#   print(x)
+
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.keys()
+# print(x)
+
+
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# for x in thisdict.values():
+#   print(x)
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# for x,y in thisdict.items():
+#   print(x,y)
+
+# for x in thisdict:
+#     print(f"{x} {thisdict[x]}")
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# print(thisdict)
+# mydict = thisdict.copy()
+# print(mydict)
+
+# myfamily = {
+#   "child1" : {
+#     "name" : "Emil",
+#     "year" : 2004
+#   },
+#   "child2" : {
+#     "name" : "Tobias",
+#     "year" : 2007
+#   },
+#   "child3" : {
+#     "name" : "Linus",
+#     "year" : 2011
+#   }
+# }
+
+# print(myfamily)
+# a = myfamily.items()
+# print(a)
+
+
+# clear()	Removes all the elements from the dictionary
+# copy()	Returns a copy of the dictionary
+# fromkeys()	Returns a dictionary with the specified keys and value
+# get()	Returns the value of the specified key
+# items()	Returns a list containing a tuple for each key value pair
+# keys()	Returns a list containing the dictionary's keys
+# pop()	Removes the element with the specified key
+# popitem()	Removes the last inserted key-value pair
+# setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+# update()	Updates the dictionary with the specified key-value pairs
+# values()	Returns a list of all the values in the dictionary
+
+# a = 5
+# b = 3
+# c = a + b
+# print(c)
+
+
+
+# def hellos():
+#     a = 5
+#     b = 3
+#     c = a + b
+#     print(c)
+
+# hellos()
+# hellos()
+# hellos()
+
+# def my_function():
+#   print("Hello from a function")
+
+# my_function()
+# my_function()
+# my_function()
+
+
+# def add(a,b): #a = 5, b = 3
+#     c = a + b
+#     print(c)
+
+# add(5,3)
+
+# def add(a,b):  #a = 10, b = 20
+#     c = a + b #c = 10 + 20
+#     print(c) #30
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# add(a,b) #add(10,20)
+
+# def add(c,d):  #a = 10, b = 20
+#     e = c + d #c = 10 + 20
+#     print(e) #30
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# add(a,b) #add(10,20)
+
+# def add(c,d):  #a = 10, b = 20
+#     e = c + d #c = 10 + 20
+#     return e #30
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# y = add(a,b) #add(10,20)
+# z = add(a,b)
+# print(y)
+# print(z)
