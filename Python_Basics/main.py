@@ -1437,3 +1437,61 @@ thisdict =	{
 # %G	ISO 8601 year	2018	
 # %u	ISO 8601 weekday (1-7)	1	
 # %V	ISO 8601 weeknumber (01-53)	01
+
+# from pydantic import BaseModel
+
+# class Student(BaseModel):
+#     name: str
+#     age: int
+
+# student = Student(
+#     name="Rahul",
+#     age=22
+# )
+
+# print(student)
+
+# from pydantic import BaseModel
+
+# class Student(BaseModel):
+#     name: str
+#     age: int
+
+# student = Student(
+#     name="Rahul",
+#     age="22"
+# )
+
+# print(student)
+
+# from pydantic import BaseModel
+
+# class Student(BaseModel):
+#     name: str
+#     age: int
+
+# student = Student(
+#     name="Rahul",
+#     age="twenty"
+# )
+
+# from pydantic import BaseModel, Field
+
+# class Product(BaseModel):
+#     name: str
+#     price: float = Field(gt=0)
+
+# product = Product(
+#     name="Laptop",
+#     price=50000
+# )
+
+# print(product)
+
+# from fastapi import FastAPI
+
+# app = FastAPI()
+
+# @app.get("/")
+# def home():
+#     return {"message": "Hello Students"}
